@@ -1,0 +1,6 @@
+sudoku.cpp:4:  Include the directory when naming header files  [build/include_subdir] [4]
+sudoku.cpp:37:  Is this a non-const reference? If so, make const or use a pointer: int& row  [runtime/references] [2]
+sudoku.cpp:37:  Is this a non-const reference? If so, make const or use a pointer: int& col  [runtime/references] [2]
+sudoku.cpp:142:  Consider using rand_r(...) instead of rand(...) for improved thread safety.  [runtime/threadsafe_fn] [2]
+sudoku.cpp:146:  Consider using rand_r(...) instead of rand(...) for improved thread safety.  [runtime/threadsafe_fn] [2]
+sudoku.cpp:147:  Consider using rand_r(...) instead of rand(...) for improved thread safety.  [runtime/threadsafe_fn] [2]
